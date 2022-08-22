@@ -3,5 +3,14 @@
  </p>
  <div>
     <p>Click the link below to navigate into component</p>
+    <!--
+      differences routerlink and [routerlink];
+      routerlink: static string, cannot add dynamic values
+      [routerLink]: accepts dynamic values
+        example: ['/', 'dishes', 'desserts', dessert.name]
+          -> here you also need to have a reference to the desserts, otherwise it won't work.
+          e.g.: *ngFor="let dessert of dessertList", and then make a list of elements, and each
+          element also has a reference to the dessert-page...
+    -->
   <a routerLink="/about">About</a>
  </div>
