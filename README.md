@@ -1,5 +1,8 @@
 # RoutingDemo
 
+This project is made for the purpose of making routing in angular more clear.
+Code is set-up according to the following website: https://www.thirdrocktechkno.com/blog/how-angular-routing-works/#:~:text=A%20routed%20Angular%20application%20has,determine%20the%20component%20to%20display.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
 
 ## Development server
